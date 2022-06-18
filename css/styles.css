@@ -782,6 +782,7 @@ img {
     display: flex;
     flex-direction: column;
     width: 528px;
+    height: 581px;
     padding: 40px;
 }
 .modal-form-field {
@@ -821,6 +822,7 @@ img {
 }
 .modal-form-icon-checkbox {   
     fill: transparent;
+
     border: 2px solid #212121;
     border-radius: 4px;
     cursor: pointer;
@@ -832,17 +834,17 @@ img {
 .modal-form-input:focus + .modal-form-icon {
     fill: #2196F3;
 }
-.modal-form-label-text {
+.modal-label-name {
     display: block;
     margin-top: 10px;
     margin-bottom: 4px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
-    color: #757575;
+    color: var(--secondary-text-color);
 }
 .modal-form-rules-checkbox:focus + .modal-form-icon-checkbox {
-    border: 1px solid #2196F3;
+    border: 1px solid var(--hover-text-color);
 }
 .modal-form-rules-checkbox:checked + .modal-form-icon-checkbox {
     fill:var(--hover-text-color);
@@ -851,7 +853,7 @@ img {
 .modal-form-rules-label {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: center;
     margin-top: 20px;
     margin-bottom: 30px;
     font-size: 14px;
@@ -864,6 +866,9 @@ img {
 .modal-form-send-btn {
     width: 200px;
     align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     padding: 10px 56px;
     font-family: var(--main-font);
     font-weight: 700;
@@ -881,6 +886,7 @@ img {
 .modal-form-send-btn:hover,
 .modal-form-send-btn:focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    outline: none;
 }
 .modal-form-textarea-field {
     margin-bottom: 20px;
@@ -900,7 +906,8 @@ img {
     border-color: var(--hover-text-color);
 }
 .modal-form-textarea::placeholder {
-    font-size: 12px;
+    font-family: var(--main-font);
+    font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
@@ -914,8 +921,5 @@ img {
     letter-spacing: 0.03em;
     text-align: center;  
     color: #212121;
-}
-textarea {
-    resize: none;
 }
 /*---------------------------------------- /MODAL ----------------------------------------*/
