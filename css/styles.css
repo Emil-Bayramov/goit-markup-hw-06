@@ -591,6 +591,9 @@ img {
     display: flex;
     align-items: baseline;
 }
+.footer-info{
+    flex-grow: 1;
+}
 .footer-logo {
     font-family: 'Raleway';    
     font-weight: 700;
@@ -684,7 +687,7 @@ img {
     font-family: 'Roboto';
     font-weight: 700;
     text-align: center;
-    margin-left:12px;
+    /* margin-left:12px; */
     padding-left: 29px;
     text-align: center;
     min-width: 200px;
@@ -787,7 +790,7 @@ img {
 }
 .modal-form-field {
     margin-bottom: 10px;
-    background-color: teal;
+    background-color: transparent;
 }
 .modal-form-input {
     padding-left: 42px;
@@ -836,8 +839,8 @@ img {
 }
 .modal-label-name {
     display: block;
-    margin-top: 10px;
-    margin-bottom: 4px;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
@@ -921,5 +924,12 @@ img {
     letter-spacing: 0.03em;
     text-align: center;  
     color: #212121;
+}
+.modal-policy-accept{
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 /*---------------------------------------- /MODAL ----------------------------------------*/
