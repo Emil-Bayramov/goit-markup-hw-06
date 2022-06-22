@@ -44,7 +44,6 @@ img {
     width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
-    /* outline: 2px solid tomato; */
 }
 /*---------------------------------------- HEADER ----------------------------------------*/
 .active{
@@ -98,7 +97,6 @@ img {
     display: flex;
     align-items: center;
 }
-
 .header {
     position: static;
     background-color:var(--header-color);
@@ -149,7 +147,6 @@ img {
 .navigation-link-list:hover,
 .navigation-link-list:focus {
     color: var(--hover-text-color);
-
 }
 .navigation-link-list.active {
     color: var(--hover-text-color)
@@ -164,8 +161,7 @@ img {
 /*---------------------------------------- /HEADER ----------------------------------------*/
 /*---------------------------------------- MAIN ----------------------------------------*/
 .clients-list{
-    display: flex;
-    
+    display: flex;    
 }
 .client-logo{
     border: 1px solid #AFB1B8;
@@ -186,13 +182,6 @@ img {
 .client-logo-icon:focus{
     fill: #2196F3;
 }
-/* .client-logo-link{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 106px;
-    height: 60px;
-} */
 .client-logo-link:hover ,
 .client-logo-link:focus {
     border: #2196F3;
@@ -525,7 +514,7 @@ img {
     clip-path: inset(100%); 
     clip: rect(0 0 0 0); 
     overflow: hidden; 
-    }
+}
 .work-processes{
     padding-top:0px;
 }
@@ -675,8 +664,6 @@ img {
 }
 .subscribe{
     margin-left:93px;
-    /* display: flex; */
-    /* outline: 2px solid tomato; */
 }
 .subscribe-action{
     fill:white;
@@ -706,7 +693,6 @@ img {
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .subscribe-input{
     display: flex;
     align-items: center;
@@ -732,7 +718,6 @@ img {
     background: rgba(0, 0, 0, 0.2);
     opacity: 1;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 .backdrop.is-hidden {
     visibility: hidden;
@@ -784,7 +769,6 @@ img {
     display: flex;
     flex-direction: column;
     width: 528px;
-    /* height: 581px; */
     padding: 40px;
 }
 .modal-form-field {
@@ -793,7 +777,6 @@ img {
 }
 .modal-form-input {
     padding-left: 42px;
-    /* margin-bottom: 10px; */
     width: 100%;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -838,7 +821,6 @@ img {
 }
 .modal-label-name {
     display: block;
-    /* margin-top: 10px; */
     margin-bottom: 4px;
     font-size: 12px;
     line-height: 1.17;
@@ -890,9 +872,6 @@ img {
 .modal-form-send-btn:focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     outline: none;
-}
-.modal-form-textarea-field {
-    margin-bottom: 20px;
 }
 .modal-form-textarea {
     width: 100%;
